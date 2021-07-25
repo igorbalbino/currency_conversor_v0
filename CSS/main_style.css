@@ -1,0 +1,55 @@
+/*BOOTSTRAP*/
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+/*GLOBAL*/
+#main_container {
+	background-color: #454545;
+	color: #FFFFFF;
+	font-family: "Open Sans", Roboto, Arial;
+}
+
+/*CONTENT FIAT CURRENCY CONVERSOR*/
+.flex-container {
+	margin: auto;
+	display: flex;
+	/*faz com que os elementos quebrem linha quando estão muito apertados*/
+	flex-wrap: wrap;
+	/*alinha x*/
+	justify-content: center;
+	/*alinha y
+	align-items: center;*/
+	align-content: center;
+}
+
+.flex-item {
+	align-items: center;
+}
+
+.select-fiat-currency {
+	width: 45%;
+}
+
+.result-fiat-currency {
+	white-space: pre;
+}
+
+.select-cryptocurrency {
+	width: 45%;
+}
+
+.result-cryptocurrency {
+	white-space: pre;
+}
+
+/*bottom*/
+.main-article-bottom {
+	margin: 1%;
+	text-align: justify;
+}
+
+
+
+
+/**/
